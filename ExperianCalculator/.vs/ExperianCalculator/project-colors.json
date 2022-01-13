@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "46c1e069-77a8-4195-a2ba-c0a6381db709": {
+      "ProjectGuid": "46c1e069-77a8-4195-a2ba-c0a6381db709",
+      "DisplayName": "ExperianCalculator.Console",
+      "ColorIndex": 0
+    },
+    "84d6c056-e51f-401f-884d-8f3758e5daf9": {
+      "ProjectGuid": "84d6c056-e51f-401f-884d-8f3758e5daf9",
+      "DisplayName": "ExperianCalculator.Services",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "20a434f9-d996-4191-b66d-e9f4eb62ea54": {
+      "ProjectGuid": "20a434f9-d996-4191-b66d-e9f4eb62ea54",
+      "DisplayName": "ExperianCalculator.Domain",
+      "ColorIndex": 2
+    },
+    "e1bae4df-0377-4666-a8be-a6df6279b980": {
+      "ProjectGuid": "e1bae4df-0377-4666-a8be-a6df6279b980",
+      "DisplayName": "ExperianCalculator.DI",
+      "ColorIndex": 3
+    },
+    "e1292d0a-5cde-4f26-b828-715fd0dac97c": {
+      "ProjectGuid": "e1292d0a-5cde-4f26-b828-715fd0dac97c",
+      "DisplayName": "ExperianCalculator.Services.Interfaces",
+      "ColorIndex": 4
+    },
+    "5ef65cf5-ed49-48dd-81b5-d0c1666bb168": {
+      "ProjectGuid": "5ef65cf5-ed49-48dd-81b5-d0c1666bb168",
+      "DisplayName": "ExperianCalculator.Services.UnitTests",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}

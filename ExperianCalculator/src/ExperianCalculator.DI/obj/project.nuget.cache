@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "eEcPttzCA7H6ctQz8N32ywF7MFaUsQTyZYpTExu/jrYL262pxm3pvAiysVTX8bJZNz7B+PNk2049Vw+kXn7rLA==",
+  "success": true,
+  "projectFilePath": "D:\\Samples\\ExperianCalculator\\src\\ExperianCalculator.DI\\ExperianCalculator.DI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ukazu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

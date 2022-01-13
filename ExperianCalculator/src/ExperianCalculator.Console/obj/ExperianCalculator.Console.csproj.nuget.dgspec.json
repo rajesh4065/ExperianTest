@@ -1,0 +1,342 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Samples\\ExperianCalculator\\src\\ExperianCalculator.Console\\ExperianCalculator.Console.csproj": {}
+  },
+  "projects": {
+    "D:\\Samples\\ExperianCalculator\\src\\ExperianCalculator.Console\\ExperianCalculator.Console.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Samples\\ExperianCalculator\\src\\ExperianCalculator.Console\\ExperianCalculator.Console.csproj",
+        "projectName": "ExperianCalculator.Console",
+        "projectPath": "D:\\Samples\\ExperianCalculator\\src\\ExperianCalculator.Console\\ExperianCalculator.Console.csproj",
+        "packagesPath": "C:\\Users\\ukazu\\.nuget\\packages\\",
+        "outputPath": "D:\\Samples\\ExperianCalculator\\src\\ExperianCalculator.Console\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ukazu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Samples\\ExperianCalculator\\src\\ExperianCalculator.DI\\ExperianCalculator.DI.csproj": {
+                "projectPath": "D:\\Samples\\ExperianCalculator\\src\\ExperianCalculator.DI\\ExperianCalculator.DI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Samples\\ExperianCalculator\\src\\ExperianCalculator.DI\\ExperianCalculator.DI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Samples\\ExperianCalculator\\src\\ExperianCalculator.DI\\ExperianCalculator.DI.csproj",
+        "projectName": "ExperianCalculator.DI",
+        "projectPath": "D:\\Samples\\ExperianCalculator\\src\\ExperianCalculator.DI\\ExperianCalculator.DI.csproj",
+        "packagesPath": "C:\\Users\\ukazu\\.nuget\\packages\\",
+        "outputPath": "D:\\Samples\\ExperianCalculator\\src\\ExperianCalculator.DI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ukazu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Samples\\ExperianCalculator\\src\\ExperianCalculator.Services.Interfaces\\ExperianCalculator.Services.Interfaces.csproj": {
+                "projectPath": "D:\\Samples\\ExperianCalculator\\src\\ExperianCalculator.Services.Interfaces\\ExperianCalculator.Services.Interfaces.csproj"
+              },
+              "D:\\Samples\\ExperianCalculator\\src\\ExperianCalculator.Services\\ExperianCalculator.Services.csproj": {
+                "projectPath": "D:\\Samples\\ExperianCalculator\\src\\ExperianCalculator.Services\\ExperianCalculator.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Samples\\ExperianCalculator\\src\\ExperianCalculator.Domain\\ExperianCalculator.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Samples\\ExperianCalculator\\src\\ExperianCalculator.Domain\\ExperianCalculator.Domain.csproj",
+        "projectName": "ExperianCalculator.Domain",
+        "projectPath": "D:\\Samples\\ExperianCalculator\\src\\ExperianCalculator.Domain\\ExperianCalculator.Domain.csproj",
+        "packagesPath": "C:\\Users\\ukazu\\.nuget\\packages\\",
+        "outputPath": "D:\\Samples\\ExperianCalculator\\src\\ExperianCalculator.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ukazu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Samples\\ExperianCalculator\\src\\ExperianCalculator.Services.Interfaces\\ExperianCalculator.Services.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Samples\\ExperianCalculator\\src\\ExperianCalculator.Services.Interfaces\\ExperianCalculator.Services.Interfaces.csproj",
+        "projectName": "ExperianCalculator.Services.Interfaces",
+        "projectPath": "D:\\Samples\\ExperianCalculator\\src\\ExperianCalculator.Services.Interfaces\\ExperianCalculator.Services.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\ukazu\\.nuget\\packages\\",
+        "outputPath": "D:\\Samples\\ExperianCalculator\\src\\ExperianCalculator.Services.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ukazu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Samples\\ExperianCalculator\\src\\ExperianCalculator.Services\\ExperianCalculator.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Samples\\ExperianCalculator\\src\\ExperianCalculator.Services\\ExperianCalculator.Services.csproj",
+        "projectName": "ExperianCalculator.Services",
+        "projectPath": "D:\\Samples\\ExperianCalculator\\src\\ExperianCalculator.Services\\ExperianCalculator.Services.csproj",
+        "packagesPath": "C:\\Users\\ukazu\\.nuget\\packages\\",
+        "outputPath": "D:\\Samples\\ExperianCalculator\\src\\ExperianCalculator.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ukazu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Samples\\ExperianCalculator\\src\\ExperianCalculator.Domain\\ExperianCalculator.Domain.csproj": {
+                "projectPath": "D:\\Samples\\ExperianCalculator\\src\\ExperianCalculator.Domain\\ExperianCalculator.Domain.csproj"
+              },
+              "D:\\Samples\\ExperianCalculator\\src\\ExperianCalculator.Services.Interfaces\\ExperianCalculator.Services.Interfaces.csproj": {
+                "projectPath": "D:\\Samples\\ExperianCalculator\\src\\ExperianCalculator.Services.Interfaces\\ExperianCalculator.Services.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
